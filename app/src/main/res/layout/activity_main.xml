@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hemanth.invokebuiltinapps.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="insideInset"
+        android:scrollbarSize="40dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Hemanth!!"
+        android:textSize="30dp"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Browser"
+        android:id="@+id/showBrowserBtn"
+        android:layout_marginTop="40dp"
+        android:layout_alignRight="@+id/dialANumberBtn"
+        android:layout_alignEnd="@+id/dialANumberBtn" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dial a Number"
+        android:id="@+id/dialANumberBtn"
+        android:layout_below="@+id/showBrowserBtn"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alert Activity"
+        android:id="@+id/alertActivityBtn"
+        android:layout_below="@+id/dialANumberBtn"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Message"
+        android:id="@+id/showMessageBtn"
+        android:layout_below="@+id/alertActivityBtn"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Action Bar"
+        android:id="@+id/showActionBarBtn"
+        android:layout_below="@+id/showMessageBtn"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scroll View"
+        android:id="@+id/scrollViewBtn"
+        android:layout_below="@+id/showActionBarBtn"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment View"
+        android:id="@+id/fragmentViewBtn"
+        android:layout_below="@+id/scrollViewBtn"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit Application"
+        android:id="@+id/exitApplicationBtn"
+        android:layout_below="@+id/fragmentViewBtn"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
